@@ -1,0 +1,74 @@
+[
+{
+    "id": "year_select",
+    "choices": [
+        {"label": "1948", "next": "choose_1948"},
+        {"label": "2024", "next": "choose_2024"}
+    ]
+},
+
+{
+    "id": "choose_1948",
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_1948"},
+        {"label": "Palestinian", "next": "start_palestine_1948"}
+    ]
+},
+
+{
+    "id": "start_israel_1948",
+    "text": [
+        "You are living in a kibbutz after running away from Nazi Europe a few years ago.",
+        ""
+    ],
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_1948"},
+        {"label": "Palestinian", "next": "start_palestine_1948"}
+    ]
+},
+
+{
+    "id": "start_palestine_1948",
+    "text": [
+        "You are living in a town your family has inhabited for generations.",
+        ""
+    ],
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_1948"},
+        {"label": "Palestinian", "next": "start_palestine_1948"}
+    ]
+},
+
+{
+    "id": "choose_2024",
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_2024"},
+        {"label": "Palestinian", "next": "start_palestine_2024"}
+    ]
+},
+
+{
+    "id": "start_israel_2024",
+    "text": [
+        "You are living in a kibbutz after running away from Nazi Europe a few years ago.",
+        ""
+    ],
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_2024"},
+        {"label": "Palestinian", "next": "start_palestine_2024"}
+    ]
+},
+
+{
+    "id": "start_palestine_2024",
+    "text": [
+        "You are living in a town your family has inhabited for generations.",
+        ""
+    ],
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_2024"},
+        {"label": "Palestinian", "next": "start_palestine_2024"}
+    ]
+}
+
+]
