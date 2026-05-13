@@ -1,5 +1,5 @@
 // App.jsx file
-import Home from './Home.jsx';
+import Home from './pages/Home.jsx';
 
 function App() {
     return (
