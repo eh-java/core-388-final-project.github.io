@@ -4,3 +4,5 @@ function Home() {
         <button>Hello!</button>
     )
 }
+
+export default Home;
