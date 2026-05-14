@@ -11,7 +11,7 @@ function PickPerspective40s() {
             </div>
             <div className="default">
                 <Link to="/israeli-40s" className="button">ISRAELI</Link>
-                <button className="button">PALESTINIAN</button>
+                <Link to="/palestinian-40s" className="button">PALESTINIAN</Link>
             </div>
         </div>
     )
