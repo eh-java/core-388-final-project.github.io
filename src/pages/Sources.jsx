@@ -3,7 +3,7 @@ import '../App.css';
 // home page for website
 function Sources() {
     return (
-        <div className="parent-div">
+        <div className="home-div">
             <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
             <div className='title'>
                 <p>SOURCES</p>

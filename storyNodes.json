@@ -1,28 +1,34 @@
 [
-{
-    "id": "year_select",
-    "choices": [
-        {"label": "1948", "next": "choose_1948"},
-        {"label": "2024", "next": "choose_2024"}
-    ]
-},
 
 {
-    "id": "choose_1948",
-    "choices": [
-        {"label": "Israeli", "next": "start_israel_1948"},
-        {"label": "Palestinian", "next": "start_palestine_1948"}
-    ]
-},
-
-{
-    "id": "start_israel_1948",
+    "id": "start_israel_40s",
     "text": [
-        "You are living in a kibbutz after running away from Nazi Europe a few years ago.",
-        ""
+        "You are in Europe. Pogroms are getting bad. Will you stay or leave?"
     ],
     "choices": [
-        {"label": "Israeli", "next": "start_israel_1948"},
+        {"label": "Stay", "next": "stay_europe"},
+        {"label": "Flee", "next": "leave_europe"}
+    ]
+},
+
+{
+    "id": "stay_europe",
+    "text": [
+        "You decided to stay with your family. But a pogrom hits your village."
+    ],
+    "choices": [
+        {"label": "Israel", "next": "start_israel_40s"},
+        {"label": "America", "next": "start_palestine_1948"}
+    ]
+},
+
+{
+    "id": "flee_europe",
+    "text": [
+        "You leave everything you know behind."
+    ],
+    "choices": [
+        {"label": "Israeli", "next": "start_israel_40s"},
         {"label": "Palestinian", "next": "start_palestine_1948"}
     ]
 },
@@ -34,7 +40,7 @@
         ""
     ],
     "choices": [
-        {"label": "Israeli", "next": "start_israel_1948"},
+        {"label": "Israeli", "next": "start_israel_40s"},
         {"label": "Palestinian", "next": "start_palestine_1948"}
     ]
 },

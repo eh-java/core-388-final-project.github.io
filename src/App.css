@@ -1,9 +1,22 @@
-.parent-div {
+.home-div {
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-rows: 10vh 20vh repeat(2, 1fr);
+  grid-template-rows: 10vh 10vh repeat(2, 1fr);
   align-items: center;
   min-height: 100vh;
+}
+
+.game-div {
+  display: grid;
+  grid-template-rows: 10vh 10vh 30vh repeat(2, 1fr);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.game-text {
+  font-size: xx-large;
+  grid-row: 3;
+  line-height: 1.5;
 }
 
 .page-title {
@@ -39,6 +52,9 @@
   display: flex;
 }
 
+.game-choices {
+  grid-row: 4;
+}
 
 .button {
   color: white;
@@ -48,6 +64,6 @@
   cursor: pointer;
   text-decoration: none;
   margin: 1vh 5vh;
-  /* width: 5em; */
+  width: 5em;
   align-self: center;
 }

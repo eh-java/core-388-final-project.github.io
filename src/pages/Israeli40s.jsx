@@ -5,20 +5,21 @@ import story from '../../storyNodes.json'
 
 // home page for website
 function Israeli40s() {
-    const [text, setText] = useState(story[2].text[0]);
-    const [choiceA, setChoiceA] = useState('');
-    const [choiceB, setChoiceB] = useState('');
-    
+    const [currentNode, setNode] = useState(story[0]);
+    const [prev, setPrev] = useState();
+
+    function handleChoice(choice) {
+        setNode(story.find(({id}) => id == choice.next));
+    };
 
     return (
-        <div className="parent-div">
+        <div className="game-div">
             <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
-            <div className='title'>
-                <p>{text}</p>
+            <div className='game-text'>
+                <p>{currentNode.text.join(' ')}</p>
             </div>
-            <div className="default">
-                <Link to='/pick-perspective-40s' className="button">1940s</Link>
-                <button className="button">TBD</button>
+            <div className="game-choices">
+                {currentNode.choices.map(choice => <button className="button" key={choice.label} onClick={() => handleChoice(choice)}>{choice.label}</button>)}
             </div>
         </div>
     )
