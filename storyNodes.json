@@ -438,59 +438,6 @@
         {"label": "LEAVE", "next": "start_israel_40s"},
         {"label": "STAY", "next": "start_palestine_1948"}
     ]
-},
-
-{
-    "id": "start_israel_67",
-    "year": "1967",
-    "type":"story",
-    "text": [
-        "You are living in a kibbutz after running away from Nazi Europe a few years ago.",
-        ""
-    ],
-    "choices": [
-        {"label": "Israeli", "next": "start_israel_2024"},
-        {"label": "Palestinian", "next": "start_palestine_2024"}
-    ]
-},
-
-{
-    "id": "start_palestine_67",
-    "year": "1967",
-    "type":"story",
-    "text": [
-        "You are living in the West Bank under Jordanian martial law, when suddenly war breaks out. What do you do?"
-    ],
-    "choices": [
-        {"label": "Stay", "next": "stay_west_bank"},
-        {"label": "Leave", "next": "leave_west_bank"}
-    ]
-},
-
-{
-    "id": "stay_west_bank",
-    "year": "1967",
-    "type":"story",
-    "text": [
-        "You decide to stay. You do not want to leave home."
-    ],
-    "choices": [
-        {"label": "NEXT", "next": "stay_west_bank_2"}
-    ]
-},
-
-{
-    "id": "stay_west_bank_2",
-    "year": "1967",
-    "type":"story",
-    "text": [
-        "The war seems to end as soon as it started, but your world has been turned upside down.",
-        "Despite staying, you are forced by the Israeli military to move across to the Jordan border."
-    ],
-    "choices": [
-        {"label": "Israeli", "next": "start_israel_2024"},
-        {"label": "Palestinian", "next": "start_palestine_2024"}
-    ]
 }
 
 ]
