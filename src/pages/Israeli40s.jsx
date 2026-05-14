@@ -14,7 +14,7 @@ function Israeli40s() {
 
     return (
         <div className="game-div">
-            <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
+            <Link to='/' className='page-title'>CORE 388: Final Project, Eunice Hwang</Link>
             <div className='game-text'>
                 <p>{currentNode.text.join(' ')}</p>
             </div>

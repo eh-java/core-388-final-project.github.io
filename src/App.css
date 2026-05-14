@@ -1,7 +1,7 @@
 .home-div {
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-rows: 10vh 10vh repeat(2, 1fr);
+  grid-template-rows: 10vh 20vh repeat(2, 1fr);
   align-items: center;
   min-height: 100vh;
 }
@@ -20,11 +20,13 @@
 }
 
 .page-title {
+  color: white;
   font-size: small;
   grid-row: 1;
   /* grid-column: 2; */
   align-self: start;
   margin-top: 2%;
+  text-decoration: none;
 }
 
 .title {
@@ -64,6 +66,6 @@
   cursor: pointer;
   text-decoration: none;
   margin: 1vh 5vh;
-  width: 5em;
+  max-width: 50vh;
   align-self: center;
 }

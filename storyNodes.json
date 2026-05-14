@@ -2,39 +2,83 @@
 
 {
     "id": "start_israel_40s",
+    "year": "1942",
+    "type": "story",
     "text": [
         "You are in Europe. Pogroms are getting bad. Will you stay or leave?"
     ],
     "choices": [
         {"label": "Stay", "next": "stay_europe"},
-        {"label": "Flee", "next": "leave_europe"}
+        {"label": "Leave", "next": "leave_europe"}
     ]
 },
 
 {
     "id": "stay_europe",
+    "year": "1942",
+    "type": "story",
     "text": [
         "You decided to stay with your family. But a pogrom hits your village."
     ],
     "choices": [
-        {"label": "Israel", "next": "start_israel_40s"},
-        {"label": "America", "next": "start_palestine_1948"}
+        {"label": "Try another persective", "next": "start_israel_40s"}
     ]
 },
 
 {
-    "id": "flee_europe",
+    "id": "leave_europe",
+    "year": "1942",
+    "type": "story",
     "text": [
-        "You leave everything you know behind."
+        "You decide to leave everything you know behind."
     ],
     "choices": [
-        {"label": "Israeli", "next": "start_israel_40s"},
-        {"label": "Palestinian", "next": "start_palestine_1948"}
+        {"label": "Immigrate", "next": "immigrate"},
+        {"label": "Go Back", "next": "go_back"}
     ]
 },
 
 {
-    "id": "start_palestine_1948",
+    "id": "go_back",
+    "year": "1942",
+    "type": "story",
+    "text": [
+        "You decide the risk is not worth it. You hope the war will end soon, before it reaches you."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "shoah"}
+    ]
+},
+
+{
+    "id": "shoah",
+    "year": "1942",
+    "type": "end",
+    "text": [
+        "6 million Jews died in the Shoah, or the Holocaust."
+    ],
+    "choices": [
+        {"label": "Try another persective", "next": "start_israel_40s"}
+    ]
+},
+
+{
+    "id": "immigrate",
+    "year": "1947",
+    "type": "story",
+    "text": [
+        "It is now 1947."
+    ],
+    "choices": [
+        {"label": "Immigrate", "next": "immigrate"},
+        {"label": "Go Back", "next": "go_back"}
+    ]
+},
+
+{
+    "id": "start_palestine_40s",
+    "year": "1942",
+    "type": "story",
     "text": [
         "You are living in a town your family has inhabited for generations.",
         ""
@@ -46,15 +90,9 @@
 },
 
 {
-    "id": "choose_2024",
-    "choices": [
-        {"label": "Israeli", "next": "start_israel_2024"},
-        {"label": "Palestinian", "next": "start_palestine_2024"}
-    ]
-},
-
-{
-    "id": "start_israel_2024",
+    "id": "start_israel_67",
+    "year": "1967",
+    "type":"story",
     "text": [
         "You are living in a kibbutz after running away from Nazi Europe a few years ago.",
         ""
@@ -66,10 +104,37 @@
 },
 
 {
-    "id": "start_palestine_2024",
+    "id": "start_palestine_67",
+    "year": "1967",
+    "type":"story",
     "text": [
-        "You are living in a town your family has inhabited for generations.",
-        ""
+        "You are living in the West Bank under Jordanian martial law, when suddenly war breaks out. What do you do?"
+    ],
+    "choices": [
+        {"label": "Stay", "next": "stay_west_bank"},
+        {"label": "Leave", "next": "leave_west_bank"}
+    ]
+},
+
+{
+    "id": "stay_west_bank",
+    "year": "1967",
+    "type":"story",
+    "text": [
+        "You decide to stay. You do not want to leave home."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "stay_west_bank_2"}
+    ]
+},
+
+{
+    "id": "stay_west_bank_2",
+    "year": "1967",
+    "type":"story",
+    "text": [
+        "The war seems to end as soon as it started, but your world has been turned upside down.",
+        "Despite staying, you are forced by the Israeli military to move across to the Jordan border."
     ],
     "choices": [
         {"label": "Israeli", "next": "start_israel_2024"},
