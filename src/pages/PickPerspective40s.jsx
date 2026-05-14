@@ -1,4 +1,5 @@
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 // home page for website
 function PickPerspective40s() {
@@ -9,7 +10,7 @@ function PickPerspective40s() {
                 <p>Pick a perspective.</p>
             </div>
             <div className="default">
-                <button className="button">ISRAELI</button>
+                <Link to="/israeli-40s" className="button">ISRAELI</Link>
                 <button className="button">PALESTINIAN</button>
             </div>
         </div>
