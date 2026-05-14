@@ -1,4 +1,5 @@
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 // home page for website
 function Home() {
@@ -9,10 +10,9 @@ function Home() {
                 <p>WHAT IF IT WERE YOU?</p>
                 <p className='sub-title'>Exploring Israeli and Palestinian Narratives</p>
             </div>
-            <div className="default">
-                <button className="button">PLAY</button>
-                <p></p>
-                <button className="button">SOURCES</button>
+            <div className="column-default">
+                <Link to='/pick-perspective' className="button">PLAY</Link>
+                <Link to='/sources' className="button">SOURCES</Link>
             </div>
         </div>
     )
