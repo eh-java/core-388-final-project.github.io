@@ -10,7 +10,7 @@ import PickPerspective67 from "./pages/PickPerspective67.jsx";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/core-388-final-project.github.io">
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/pick-time' element={<PickTime/>}/>
