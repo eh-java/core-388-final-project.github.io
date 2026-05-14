@@ -8,8 +8,8 @@
         "You are in Europe. Pogroms are getting bad. Will you stay or leave?"
     ],
     "choices": [
-        {"label": "Stay", "next": "stay_europe"},
-        {"label": "Leave", "next": "leave_europe"}
+        {"label": "STAY", "next": "stay_europe"},
+        {"label": "LEAVE", "next": "leave_europe"}
     ]
 },
 
@@ -21,7 +21,7 @@
         "You decided to stay with your family. But a pogrom hits your village."
     ],
     "choices": [
-        {"label": "Try another persective", "next": "start_israel_40s"}
+        {"label": "NEXT", "next": "start_israel_40s"}
     ]
 },
 
@@ -33,8 +33,8 @@
         "You decide to leave everything you know behind."
     ],
     "choices": [
-        {"label": "Immigrate", "next": "immigrate"},
-        {"label": "Go Back", "next": "go_back"}
+        {"label": "IMMIGRATE", "next": "immigrate"},
+        {"label": "GO BACK", "next": "go_back"}
     ]
 },
 

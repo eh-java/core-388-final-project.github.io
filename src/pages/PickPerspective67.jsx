@@ -2,19 +2,19 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 
 // home page for website
-function PickTime() {
+function PickPerspective67() {
     return (
         <div className="home-div">
             <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
             <div className='title'>
-                <p>Pick a time period.</p>
+                <p>Pick a perspective.</p>
             </div>
             <div className="default">
-                <Link to='/pick-perspective-40s' className="button">1940s</Link>
-                <Link to='/pick-perspective-67' className="button">1967</Link>
+                <Link to="/israeli-40s" className="button">ISRAELI</Link>
+                <Link to="/palestinian-40s" className="button">PALESTINIAN</Link>
             </div>
         </div>
     )
 }
 
-export default PickTime;
+export default PickPerspective67;
