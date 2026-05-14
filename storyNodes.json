@@ -2,48 +2,122 @@
 
 {
     "id": "start_israel_40s",
-    "year": "1942",
+    "year": "1940",
     "type": "story",
     "text": [
-        "You are in Europe. Pogroms are getting bad. Will you stay or leave?"
+        "You are living in Europe and the situation for the Jewish people looks worse every day.",
+        "You have heard of the horrors happening across the continent, and you're afraid it will reach you."
     ],
     "choices": [
-        {"label": "STAY", "next": "stay_europe"},
-        {"label": "LEAVE", "next": "leave_europe"}
+        {"label": "NEXT", "next": "start_israel_40s_2"}
+    ]
+},
+
+{
+    "id": "start_israel_40s_2",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "But you know how difficult it is to succesfully emigrate, with many countries turning Jews away.¹",
+        "However, you hear about how thousands of Jews are trying to find safety in the Promised Land.²"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "start_israel_40s_3"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "start_israel_40s_3",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "Do you leave everything you know or stay with the risk of Nazi Germany in your corner?"
+    ],
+    "choices": [
+        {"label": "LEAVE", "next": "leave_europe"},
+        {"label": "STAY", "next": "stay_europe_f"}
+    ]
+},
+
+{
+    "id": "stay_europe_f",
+    "year": "1940",
+    "type": "fact",
+    "text": [
+        "Immigrating to other nations such as the United States or United Kingdom was difficult, even as World War II continued to escalate.¹",
+        "Immigrating to Palestine was also difficult because of legal restrictions from the White Paper laws,",
+        "but Yishuv Jews helped thousands of Diaspora Jews to immigrate illegally in order to escape Nazi Europe.²"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "stay_europe"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
     ]
 },
 
 {
     "id": "stay_europe",
-    "year": "1942",
+    "year": "1940",
     "type": "story",
     "text": [
-        "You decided to stay with your family. But a pogrom hits your village."
+        "You decide to stay, around your friends and family. But you are not so sure how long you will be safe for. You hope the war ends soon."
     ],
     "choices": [
-        {"label": "NEXT", "next": "start_israel_40s"}
+        {"label": "NEXT", "next": "shoah"}
     ]
 },
 
 {
     "id": "leave_europe",
-    "year": "1942",
+    "year": "1940",
     "type": "story",
     "text": [
-        "You decide to leave everything you know behind."
+        "You decide to leave everything you know behind.",
+        "However, it dawns on you that immigrating to Palestine is illegal under the British Mandate."
     ],
     "choices": [
-        {"label": "IMMIGRATE", "next": "immigrate"},
-        {"label": "GO BACK", "next": "go_back"}
+        {"label": "NEXT", "next": "leave_europe_2"}
+    ]
+},
+
+{
+    "id": "leave_europe_2",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "You've heard there is a risk of being turned away,", 
+        "but you also know many Jews living there are helping people immigrate illegaly."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "leave_europe_3"}
+    ]
+},
+
+{
+    "id": "leave_europe_3",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "Do you go back now or take the risk of immigrating?"
+    ],
+    "choices": [
+        {"label": "GO BACK", "next": "go_back"},
+        {"label": "IMMIGRATE", "next": "immigrate_f"}
     ]
 },
 
 {
     "id": "go_back",
-    "year": "1942",
+    "year": "1940",
     "type": "story",
     "text": [
-        "You decide the risk is not worth it. You hope the war will end soon, before it reaches you."
+        "You decide the risk is not worth it. You just hope the war will end soon, before it reaches you."
     ],
     "choices": [
         {"label": "NEXT", "next": "shoah"}
@@ -52,26 +126,200 @@
 
 {
     "id": "shoah",
-    "year": "1942",
-    "type": "end",
+    "year": "1945",
+    "type": "fact",
+    "end": true,
     "text": [
-        "6 million Jews died in the Shoah, or the Holocaust."
+        "By the end of World War II, 6 million Jews died in the Holocaust, a third of the global Jewish population.¹"
     ],
     "choices": [
-        {"label": "Try another persective", "next": "start_israel_40s"}
+        {"label": "Try another perspective.", "next": ""}
+    ],
+    "footnotes": [
+        "1. My footnote"
+    ]
+},
+
+
+{
+    "id": "immigrate_f",
+    "year": "1945",
+    "type": "fact",
+    "text": [
+        "While you are able to immigrate, many others were not so fortunate.¹"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "immigrate"}
+    ],
+    "footnotes": [
+        "1. My footnote"
     ]
 },
 
 {
     "id": "immigrate",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "Luckily, you are able to immigrate successfully.",
+        "It is unfamiliar territory, but you feel safer here."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "un_vote"}
+    ]
+},
+
+{
+    "id": "un_vote",
+    "year": "1946",
+    "type": "story",
+    "text": [
+        "You've now been living here for a few years. You are glad to have avoided the Holocaust, and you are surrounded by other Jews",
+        "who can relate to your story."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "un_vote_2"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "un_vote_2",
+    "year": "1946",
+    "type": "story",
+    "text": [
+        "However, life has not exactly been peaceful. You consistently hear about violence between Arabs and Jews.¹",
+        "You wonder if violence will always follow your people."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "un_vote_3"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "un_vote_3",
     "year": "1947",
     "type": "story",
     "text": [
-        "It is now 1947."
+        "Amazingly, the UN vote passes to give the Jewish people a state in Palestine.",
+        "People are celebrating in the streets.¹"
     ],
     "choices": [
-        {"label": "Immigrate", "next": "immigrate"},
-        {"label": "Go Back", "next": "go_back"}
+        {"label": "NEXT", "next": "un_vote_4"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "un_vote_4",
+    "year": "1947",
+    "type": "story",
+    "text": [
+        "But not too long after the vote, violence intensifies.",
+        "You even hear of leaders of neighboring nations saying they will annihilate Israel.¹",
+        "You wonder what statehood is going to cost."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "war48"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "war48",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "Israel finally declares statehood.",
+        "The next day, neighboring countries strike."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "war48_2"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "war48_2",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "You watch many neighbors and friends enlist, determined to fight for statehood.",
+        "Will you do the same?"
+    ],
+    "choices": [
+        {"label": "FIGHT", "next": "fight"},
+        {"label": "DON'T FIGHT", "next": "war48_f"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "war48_f",
+    "year": "1948",
+    "type": "fact",
+    "text": [
+        "Many soldiers fighting for Israeli independence were Holocaust survivors."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "dont_fight"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "fight",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "You fight for the hope of Israeli statehood."
+    ],
+    "choices": [
+        {"label": "FIGHT", "next": "war48_2"},
+        {"label": "DON'T FIGHT", "next": "war48_2"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "dont_fight",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "You decide not to fight."
+    ],
+    "choices": [
+        {"label": "FIGHT", "next": "war48_2"},
+        {"label": "DON'T FIGHT", "next": "war48_2"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
     ]
 },
 
