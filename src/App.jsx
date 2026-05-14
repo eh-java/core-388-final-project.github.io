@@ -10,7 +10,7 @@ import PickPerspective67 from "./pages/PickPerspective67.jsx";
 
 function App() {
     return (
-        <HashRouter>
+        <Router>
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/pick-time' element={<PickTime/>}/>
@@ -20,7 +20,7 @@ function App() {
                 <Route path='/palestinian-40s' element={<Palestinian40s/>}/>
                 <Route path='/sources' element={<Sources/>}/>
             </Routes>
-        </HashRouter>
+        </Router>
     )
 }
 
