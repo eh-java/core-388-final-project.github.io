@@ -18,15 +18,15 @@
     "year": "1940",
     "type": "story",
     "text": [
-        "But you know how difficult it is to succesfully emigrate, with many countries turning Jews away.¹",
-        "However, you hear about how thousands of Jews are trying to find safety in the Promised Land.²"
+        "But you know how difficult it is to succesfully emigrate, with countries turning Jews away or having strict immigration laws.¹",
+        "However, you hear of thousands of Jews trying to find safety in the Promised Land, and you wonder if there is hope there.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "start_israel_40s_3"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. \"German Jewish Refugees, 1933-1939\"",
+        "2. Gordis, 129"
     ]
 },
 
@@ -38,7 +38,7 @@
         "Do you leave everything you know or stay with the risk of Nazi Germany in your corner?"
     ],
     "choices": [
-        {"label": "LEAVE", "next": "leave_europe"},
+        {"label": "LEAVE", "next": "leave_europe_f"},
         {"label": "STAY", "next": "stay_europe_f"}
     ]
 },
@@ -48,16 +48,34 @@
     "year": "1940",
     "type": "fact",
     "text": [
-        "Immigrating to other nations such as the United States or United Kingdom was difficult, even as World War II continued to escalate.¹",
-        "Immigrating to Palestine was also difficult because of legal restrictions from the White Paper laws,",
+        "Emigrating from Europe proved difficult due to both Germany's laws and the immigration policies of other countries.¹",
+        "Immigrating to Palestine was also difficult because of legal restrictions from the British White Paper,",
         "but Yishuv Jews helped thousands of Diaspora Jews to immigrate illegally in order to escape Nazi Europe.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "stay_europe"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. \"Escape from German-occupied Europe\", \"German Jewish Refugees\"",
+        "2. Gordis, 129"
+    ]
+},
+
+{
+    "id": "leave_europe_f",
+    "year": "1940",
+    "type": "fact",
+    "text": [
+        "Emigrating from Europe proved difficult due to both Germany's laws and the immigration policies of other countries.¹",
+        "Immigrating to Palestine was also difficult because of legal restrictions from the British White Paper,",
+        "but Yishuv Jews helped thousands of Diaspora Jews to immigrate illegally in order to escape Nazi Europe.²"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "leave_europe"}
+    ],
+    "footnotes": [
+        "1. \"Escape from German-occupied Europe\", \"German Jewish Refugees\"",
+        "2. Gordis, 129"
     ]
 },
 
@@ -130,13 +148,17 @@
     "type": "fact",
     "end": true,
     "text": [
-        "By the end of World War II, 6 million Jews died in the Holocaust, a third of the global Jewish population.¹"
+        "The war continues another five years, and the Holocaust worsens throughout the course of the war.¹",
+        "By the end of World War II, 6 million Jews died in the Holocaust, a third of the global Jewish population.²",
+        "Even after Nazi surrender in June, acts of antisemitism persist across Europe.³"
     ],
     "choices": [
         {"label": "Try another perspective.", "next": ""}
     ],
     "footnotes": [
-        "1. My footnote"
+        "1. \"The Holocaust and World War II: Key Dates\"",
+        "2. Gordis, 139.",
+        "3. Gordis, 142."
     ]
 },
 
@@ -171,10 +193,10 @@
 
 {
     "id": "un_vote",
-    "year": "1946",
+    "year": "1945",
     "type": "story",
     "text": [
-        "You've now been living here for a few years. You are glad to have avoided the Holocaust, and you are surrounded by other Jews",
+        "You've now been living here for a few years. You are glad to have avoided the Holocaust and to be surrounded by other Jews",
         "who can relate to your story."
     ],
     "choices": [
@@ -191,7 +213,7 @@
     "year": "1946",
     "type": "story",
     "text": [
-        "However, life has not exactly been peaceful. You consistently hear about violence between Arabs and Jews.¹",
+        "However, life has not exactly been peaceful. You consistently hear about violence between Arabs, Jews, and the British.¹",
         "You wonder if violence will always follow your people."
     ],
     "choices": [
@@ -208,7 +230,7 @@
     "year": "1947",
     "type": "story",
     "text": [
-        "Amazingly, the UN vote passes to give the Jewish people a state in Palestine.",
+        "In November, the UN vote passes to give the Jewish people a state in Palestine.",
         "People are celebrating in the streets.¹"
     ],
     "choices": [
@@ -226,7 +248,7 @@
     "type": "story",
     "text": [
         "But not too long after the vote, violence intensifies.",
-        "You even hear of leaders of neighboring nations saying they will annihilate Israel.¹",
+        "You hear of leaders of neighboring nations say they will annihilate Israel.¹",
         "You wonder what statehood is going to cost."
     ],
     "choices": [
@@ -244,7 +266,7 @@
     "type": "story",
     "text": [
         "Israel finally declares statehood.",
-        "The next day, neighboring countries strike."
+        "Within 12 hours, neighboring countries strike.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "war48_2"}
@@ -260,12 +282,12 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "You watch many neighbors and friends enlist, determined to fight for statehood.",
+        "You watch many neighbors and friends join militias, determined to fight for statehood.",
         "Will you do the same?"
     ],
     "choices": [
-        {"label": "FIGHT", "next": "fight"},
-        {"label": "DON'T FIGHT", "next": "war48_f"}
+        {"label": "FIGHT", "next": "fight_f"},
+        {"label": "DON'T FIGHT", "next": "dont_fight_f"}
     ],
     "footnotes": [
         "1. My footnote",
@@ -274,7 +296,23 @@
 },
 
 {
-    "id": "war48_f",
+    "id": "fight_f",
+    "year": "1948",
+    "type": "fact",
+    "text": [
+        "Many soldiers fighting for Israeli independence were Holocaust survivors."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "fight"}
+    ],
+    "footnotes": [
+        "1. My footnote",
+        "2. My footnote"
+    ]
+},
+
+{
+    "id": "dont_fight_f",
     "year": "1948",
     "type": "fact",
     "text": [
@@ -325,15 +363,80 @@
 
 {
     "id": "start_palestine_40s",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "You and your loved ones are starting to recover from the three-year long revolt of your people.",
+        "The revolt was an attempt to stand up to Britain, but they retaliated with heavy violence."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "start_palestine_40s_2"}
+    ]
+},
+
+{
+    "id": "start_palestine_40s_2",
+    "year": "1940",
+    "type": "story",
+    "text": [
+        "You hope that now things are over, there would be some semblance of peaceful living."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "pal_ww2"}
+    ]
+},
+
+{
+    "id": "pal_ww2",
     "year": "1942",
     "type": "story",
     "text": [
-        "You are living in a town your family has inhabited for generations.",
-        ""
+        "You have actually experienced an economic boost from the ongoing World War.",
+        "But you are aware of the suffering that is happening around the world."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "pal_ww2_2"}
+    ]
+},
+
+{
+    "id": "pal_ww2_2",
+    "year": "1942",
+    "type": "story",
+    "text": [
+        "You are aware of Jewish terrorists performing violent acts against the British."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "beg_nakba"}
+    ]
+},
+
+{
+    "id": "beg_nakba",
+    "year": "1947",
+    "type": "story",
+    "text": [
+        "The UN has decided to partition off Palestine, giving your people less than half of the land.",
+        "You feel lucky that your village is within the Palestinian zones,",
+        "but you know of tens of thousands being attacked or forced out of their homes by Israeli milita."
     ],
     "choices": [
         {"label": "Israeli", "next": "start_israel_40s"},
         {"label": "Palestinian", "next": "start_palestine_1948"}
+    ]
+},
+
+{
+    "id": "nakba",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
+        "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
+    ],
+    "choices": [
+        {"label": "LEAVE", "next": "start_israel_40s"},
+        {"label": "STAY", "next": "start_palestine_1948"}
     ]
 },
 
