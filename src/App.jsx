@@ -1,5 +1,5 @@
 // App.jsx file
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import PickPerspective40s from "./pages/PickPerspective40s.jsx";
 import Sources from "./pages/Sources.jsx";
@@ -10,7 +10,7 @@ import PickPerspective67 from "./pages/PickPerspective67.jsx";
 
 function App() {
     return (
-        <BrowserRouter basename="/core-388-final-project.github.io">
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/pick-time' element={<PickTime/>}/>
@@ -20,7 +20,7 @@ function App() {
                 <Route path='/palestinian-40s' element={<Palestinian40s/>}/>
                 <Route path='/sources' element={<Sources/>}/>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
