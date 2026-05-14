@@ -42,10 +42,12 @@
 
 .button {
   color: white;
-  font-size: large;
+  font-size: x-large;
   background: transparent;
   border: none;
   cursor: pointer;
   text-decoration: none;
   margin: 1vh 5vh;
+  /* width: 5em; */
+  align-self: center;
 }

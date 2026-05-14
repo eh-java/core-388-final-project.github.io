@@ -11,7 +11,7 @@ function Home() {
                 <p className='sub-title'>Exploring Israeli and Palestinian Narratives</p>
             </div>
             <div className="column-default">
-                <Link to='/pick-perspective' className="button">PLAY</Link>
+                <Link to='/pick-time' className="button">PLAY</Link>
                 <Link to='/sources' className="button">SOURCES</Link>
             </div>
         </div>

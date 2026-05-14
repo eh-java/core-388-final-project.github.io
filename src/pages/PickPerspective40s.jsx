@@ -1,7 +1,7 @@
 import '../App.css';
 
 // home page for website
-function PickPerspective() {
+function PickPerspective40s() {
     return (
         <div className="parent-div">
             <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
@@ -16,4 +16,4 @@ function PickPerspective() {
     )
 }
 
-export default PickPerspective;
+export default PickPerspective40s;
