@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 function PickTime() {
     return (
         <div className="home-div">
-            <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
+            <Link to='/' className='page-title'>CORE 388: Final Project, Eunice Hwang</Link>
             <div className='title'>
                 <p>Pick a time period.</p>
             </div>
             <div className="default">
                 <Link to='/pick-perspective-40s' className="button">1940s</Link>
-                <Link to='/pick-perspective-67' className="button">1967</Link>
             </div>
         </div>
     )

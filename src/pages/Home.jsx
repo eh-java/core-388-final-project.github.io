@@ -14,6 +14,7 @@ function Home() {
                 <Link to='/pick-time' className="button">PLAY</Link>
                 <Link to='/sources' className="button">SOURCES</Link>
             </div>
+            <Link to='https://playspent.org/' className='footnote'>Inspired by SPENT</Link>
         </div>
     )
 }

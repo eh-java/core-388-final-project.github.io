@@ -421,8 +421,7 @@
         "but you know of tens of thousands being attacked or forced out of their homes by Israeli milita."
     ],
     "choices": [
-        {"label": "Israeli", "next": "start_israel_40s"},
-        {"label": "Palestinian", "next": "start_palestine_1948"}
+        {"label": "NEXT", "next": "nakba"}
     ]
 },
 
@@ -435,8 +434,34 @@
         "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
     ],
     "choices": [
-        {"label": "LEAVE", "next": "start_israel_40s"},
-        {"label": "STAY", "next": "start_palestine_1948"}
+        {"label": "LEAVE", "next": "leave_nakba_f"},
+        {"label": "STAY", "next": "stay_nakba_f"}
+    ]
+},
+
+{
+    "id": "leave_nakba_f",
+    "year": "1948",
+    "type": "fact",
+    "text": [
+        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
+        "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": ""}
+    ]
+},
+
+{
+    "id": "stay_nakba_f",
+    "year": "1948",
+    "type": "fact",
+    "text": [
+        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
+        "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": ""}
     ]
 }
 

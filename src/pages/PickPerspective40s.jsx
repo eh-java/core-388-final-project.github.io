@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function PickPerspective40s() {
     return (
         <div className="home-div">
-            <p className='page-title'>CORE 388: Final Project, Eunice Hwang</p>
+            <Link to='/' className='page-title'>CORE 388: Final Project, Eunice Hwang</Link>
             <div className='title'>
                 <p>Pick a perspective.</p>
             </div>
