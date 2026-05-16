@@ -9,9 +9,13 @@ function Sources() {
             <div className='title'>
                 <p>SOURCES</p>
             </div>
-            <div className="default">
-                <button className="button">ISRAELI</button>
-                <button className="button">PALESTINIAN</button>
+            <div className='column-default'>
+                <embed
+                    src={`${import.meta.env.BASE_URL}sources.pdf`}
+                    type='application/pdf'
+                    width='850px'
+                    height='1100px'
+                />
             </div>
         </div>
     )
