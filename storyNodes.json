@@ -74,7 +74,7 @@
         {"label": "NEXT", "next": "leave_europe"}
     ],
     "footnotes": [
-        "1. \"Escape from German-occupied Europe\", \"German Jewish Refugees\"",
+        "1. \"Escape from German-occupied Europe\"; \"German Jewish Refugees\"",
         "2. Gordis, 129"
     ]
 },
@@ -84,7 +84,7 @@
     "year": "1940",
     "type": "story",
     "text": [
-        "You decide to stay, around your friends and family. But you are not so sure how long you will be safe for. You hope the war ends soon."
+        "You decide to stay with your friends and family. But you are not so sure how long you will be safe for. You hope the war ends soon."
     ],
     "choices": [
         {"label": "NEXT", "next": "shoah"}
@@ -97,10 +97,13 @@
     "type": "story",
     "text": [
         "You decide to leave everything you know behind.",
-        "However, it dawns on you that immigrating to Palestine is illegal under the British Mandate."
+        "However, it dawns on you that immigrating to Palestine is illegal under the British White Paper Policy.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "leave_europe_2"}
+    ],
+    "footnotes": [
+        "1. Gordis, 125"
     ]
 },
 
@@ -109,11 +112,15 @@
     "year": "1940",
     "type": "story",
     "text": [
-        "You've heard there is a risk of being turned away,", 
-        "but you also know many Jews living there are helping people immigrate illegaly."
+        "You've heard there is a risk of being turned away (or worse)¹,", 
+        "but you also know Jews living there are helping people immigrate illegaly.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "leave_europe_3"}
+    ],
+    "footnotes": [
+        "1. Gordis, 127-128",
+        "2. Gordis, 129"
     ]
 },
 
@@ -122,7 +129,7 @@
     "year": "1940",
     "type": "story",
     "text": [
-        "Do you go back now or take the risk of immigrating?"
+        "Do you go back home or take the risk of immigrating?"
     ],
     "choices": [
         {"label": "GO BACK", "next": "go_back"},
@@ -150,7 +157,7 @@
     "text": [
         "The war continues another five years, and the Holocaust worsens throughout the course of the war.¹",
         "By the end of World War II, 6 million Jews died in the Holocaust, a third of the global Jewish population.²",
-        "Even after Nazi surrender in June, acts of antisemitism persist across Europe.³"
+        "Even after the Nazis surrender in June, acts of antisemitism persist across Europe.³"
     ],
     "choices": [
         {"label": "Try another perspective.", "next": ""}
@@ -168,13 +175,15 @@
     "year": "1945",
     "type": "fact",
     "text": [
-        "While you are able to immigrate, many others were not so fortunate.¹"
+        "While you are able to immigrate, many individuals were not so fortunate.", 
+        "Incidents such as the St. Louis, the Patria, and the Struma resulted in",
+        "Jews being turned away and ending up back in Nazi Germany, or tragic accidental deaths.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "immigrate"}
     ],
     "footnotes": [
-        "1. My footnote"
+        "1. Gordis, 127-128"
     ]
 },
 
@@ -201,10 +210,6 @@
     ],
     "choices": [
         {"label": "NEXT", "next": "un_vote_2"}
-    ],
-    "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
     ]
 },
 
@@ -213,15 +218,14 @@
     "year": "1946",
     "type": "story",
     "text": [
-        "However, life has not exactly been peaceful. You consistently hear about violence between Arabs, Jews, and the British.¹",
+        "However, life has not exactly been peaceful. You consistently hear about violence between Jews and the British.¹",
         "You wonder if violence will always follow your people."
     ],
     "choices": [
         {"label": "NEXT", "next": "un_vote_3"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Winder, \"Late Mandate\""
     ]
 },
 
@@ -237,8 +241,7 @@
         {"label": "NEXT", "next": "un_vote_4"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Gordis, 149."
     ]
 },
 
@@ -255,8 +258,7 @@
         {"label": "NEXT", "next": "war48"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Gordis, 151-152"
     ]
 },
 
@@ -266,14 +268,13 @@
     "type": "story",
     "text": [
         "Israel finally declares statehood.",
-        "Within 12 hours, neighboring countries strike.¹"
+        "The next day, neighboring countries strike and join the war.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "war48_2"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Unpacked, 6:45"
     ]
 },
 
@@ -282,16 +283,12 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "You watch many neighbors and friends join militias, determined to fight for statehood.",
+        "You watch many neighbors and friends join the military, determined to fight for statehood.",
         "Will you do the same?"
     ],
     "choices": [
         {"label": "FIGHT", "next": "fight_f"},
         {"label": "DON'T FIGHT", "next": "dont_fight_f"}
-    ],
-    "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
     ]
 },
 
@@ -300,14 +297,16 @@
     "year": "1948",
     "type": "fact",
     "text": [
-        "Many soldiers fighting for Israeli independence were Holocaust survivors."
+        "Around half of the Israeli military was made up of Holocaust survivors,",
+        "and Holocaust survivors made up around one-third of Israel losses in the war.¹",
+        "In total, about 1% of the Jewish Israeli population died.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "fight"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Yad Vashem",
+        "2. Unpacked, 7:07"
     ]
 },
 
@@ -316,14 +315,16 @@
     "year": "1948",
     "type": "fact",
     "text": [
-        "Many soldiers fighting for Israeli independence were Holocaust survivors."
+        "Around half of the Israeli military was made up of Holocaust survivors,",
+        "and Holocaust survivors made up around one-third of Israel losses in the war.¹",
+        "In total, about 1% of the Jewish Israeli population died.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "dont_fight"}
     ],
     "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+        "1. Yad Vashem",
+        "2. Unpacked, 7:07"
     ]
 },
 
@@ -332,15 +333,24 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "You fight for the hope of Israeli statehood."
+        "You fight for the hope of Israeli statehood, risking your life so there might be a permanent home for your people."
     ],
     "choices": [
-        {"label": "FIGHT", "next": "war48_2"},
-        {"label": "DON'T FIGHT", "next": "war48_2"}
+        {"label": "NEXT", "next": "fight_2"}
+    ]
+},
+
+{
+    "id": "fight_2",
+    "year": "1949",
+    "type": "story",
+    "end": true,
+    "text": [
+        "You manage to stay alive to see the end of the war. While hostilities with neighbors remain, the war is over.",
+        "Israel is finally an independent state, a home for the Jewish people."
     ],
-    "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+    "choices": [
+        {"label": "Try another perspective.", "next": ""}
     ]
 },
 
@@ -349,15 +359,24 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "You decide not to fight."
+        "You decide not to fight, not wanting to risk your life after escaping persecution just a few years ago."
     ],
     "choices": [
-        {"label": "FIGHT", "next": "war48_2"},
-        {"label": "DON'T FIGHT", "next": "war48_2"}
+        {"label": "NEXT", "next": "dont_fight_2"}
+    ]
+},
+
+{
+    "id": "dont_fight_2",
+    "year": "1949",
+    "type": "story",
+    "end": true,
+    "text": [
+        "While hostilities with neighbors remain, the war is over.",
+        "Israel is finally an independent state, a home for the Jewish people."
     ],
-    "footnotes": [
-        "1. My footnote",
-        "2. My footnote"
+    "choices": [
+        {"label": "Try another perspective.", "next": ""}
     ]
 },
 
@@ -366,11 +385,15 @@
     "year": "1940",
     "type": "story",
     "text": [
-        "You and your loved ones are starting to recover from the three-year long revolt of your people.",
-        "The revolt was an attempt to stand up to Britain, but they retaliated with heavy violence."
+        "You and your loved ones are starting to recover from the recent three-year long Palestinian revolt.",
+        "The revolt was a response to the difficulties under British occupation, such as",
+        "steep economic hardship and land dispossesion.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "start_palestine_40s_2"}
+    ],
+    "footnotes": [
+        "1. Winder, \"Great Palestinian Rebellion\""
     ]
 },
 
@@ -379,10 +402,14 @@
     "year": "1940",
     "type": "story",
     "text": [
+        "But the British responded with a heavy hand. Thousands of lives were lost.¹",
         "You hope that now things are over, there would be some semblance of peaceful living."
     ],
     "choices": [
         {"label": "NEXT", "next": "pal_ww2"}
+    ],
+    "footnotes": [
+        "1. Winder, \"Great Palestinian Rebellion\""
     ]
 },
 
@@ -391,23 +418,30 @@
     "year": "1942",
     "type": "story",
     "text": [
-        "You have actually experienced an economic boost from the ongoing World War.",
+        "Some years have passed, and you have actually experienced an economic boost as a result of the ongoing World War.¹",
         "But you are aware of the suffering that is happening around the world."
     ],
     "choices": [
         {"label": "NEXT", "next": "pal_ww2_2"}
+    ],
+    "footnotes": [
+        "1. Winder, \"Late Mandate\""
     ]
 },
 
 {
     "id": "pal_ww2_2",
-    "year": "1942",
+    "year": "1944",
     "type": "story",
     "text": [
-        "You are aware of Jewish terrorists performing violent acts against the British."
+        "In recent years, Jewish violence against the British has increased.¹ They seem determined to create a Jewish nation in Palestine.",
+        "You are afraid of what the further cost to your people would be should that happen."
     ],
     "choices": [
         {"label": "NEXT", "next": "beg_nakba"}
+    ],
+    "footnotes": [
+        "1. Winder, \"Late Mandate\""
     ]
 },
 
@@ -416,12 +450,16 @@
     "year": "1947",
     "type": "story",
     "text": [
-        "The UN has decided to partition off Palestine, giving your people less than half of the land.",
-        "You feel lucky that your village is within the Palestinian zones,",
-        "but you know of tens of thousands being attacked or forced out of their homes by Israeli milita."
+        "The UN votes in favor of partitioning Palestine, giving your people less than half of the land.¹",
+        "Soon after, Israeli military target cities and towns to force the Palestinian residents out.²",
+        "You're lucky that your village is spared for now."
     ],
     "choices": [
         {"label": "NEXT", "next": "nakba"}
+    ],
+    "footnotes": [
+        "1. Vox, 6:27-7:27",
+        "2. Charif, \"Nakba\""
     ]
 },
 
@@ -430,7 +468,23 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
+        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and other violent attacks on villages.",
+        "Hundreds of thousands have already fled in fear of their safety.¹"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "nakba_2"}
+    ],
+    "footnotes": [
+        "1. Vox, 11:47"
+    ]
+},
+
+{
+    "id": "nakba_2",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "But this has been your family's home for centuries.",
         "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
     ],
     "choices": [
@@ -444,11 +498,73 @@
     "year": "1948",
     "type": "fact",
     "text": [
-        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
-        "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
+        "The mass displacement of Palestinians out of their land is called the Nakba, which means the Catastrophe in Arabic.¹"
     ],
     "choices": [
-        {"label": "NEXT", "next": ""}
+        {"label": "NEXT", "next": "leave_nakba"}
+    ],
+    "footnotes": [
+        "1. Charif, \"Nakba\""
+    ]
+},
+
+{
+    "id": "leave_nakba",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "While not an easy decision, you decide to leave. You flee to a neighboring country, becoming a refugee."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "post_war"}
+    ]
+},
+
+{
+    "id": "post_war",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "You have been living in a refugee camp for a little while. The country you're residing in refuses to grant you citizenship.",
+        "You miss home and wonder if you can go back now that the war is over. But you're not sure if it is worth the risk."
+    ],
+    "choices": [
+        {"label": "RETURN", "next": "return"},
+        {"label": "STAY", "next": ""}
+    ]
+},
+
+{
+    "id": "return",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "Your attempt to return home is met with shots fired at you by Israeli soldiers.¹",
+        "You manage to escape unharmed, but the reality dawns on you:",
+        "you may never be able to go home."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "nakba_end"}
+    ],
+    "footnotes": [
+        "1. Munayyer"
+    ]
+},
+
+{
+    "id": "nakba_end",
+    "year": "1949",
+    "type": "fact",
+    "end": true,
+    "text": [
+        "You have been living in a refugee camp for a while. The country you're residing in refuses to grant you citizenship.",
+        "You miss home and wonder if you can go back now that the war is over. But you're not sure if it is worth the risk."
+    ],
+    "choices": [
+        {"label": "Try another perspective.", "next": ""}
+    ],
+    "footnotes": [
+        "1. Khalidi, 58."
     ]
 },
 
@@ -457,11 +573,88 @@
     "year": "1948",
     "type": "fact",
     "text": [
-        "The situation rapidly grows worse with every day. You hear about the Deir Yassin massacre, and hundreds of thousands have fled for safety.",
-        "Will you leave the home your family has lived in for generations? Or will you stay and try to wait it out?"
+        "Only around 160,000 Palestinians manage to stay within Israeli borders.",
+        "Most who tried to stay were forcibly removed from their homes."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "stay_nakba"}
+    ],
+    "footnotes": [
+        "1. Khalidi, 58."
+    ]
+},
+
+{
+    "id": "stay_nakba",
+    "year": "1948",
+    "type": "story",
+    "text": [
+        "You decide to stay, even with the risks."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "stay_nakba_2"}
+    ]
+},
+
+{
+    "id": "stay_nakba_2",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "You end up part of the miniority that was able to stay home. You are now officially an Israeli citizen."
     ],
     "choices": [
         {"label": "NEXT", "next": ""}
+    ],
+    "footnotes": [
+        "1. Khalidi, 82-83."
+    ]
+},
+
+{
+    "id": "stay_nakba_2",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "But though you are a citizen, you are placed under martial law.",
+        "And the land you desperately tried to keep is still taken from you by the Israeli military."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": ""}
+    ],
+    "footnotes": [
+        "1. Khalidi, 82-83."
+    ]
+},
+
+{
+    "id": "stay_nakba_2",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "You and your people have even less autonomy than they did before. And it doesn't seem like that will change anytime soon."
+    ],
+    "choices": [
+        {"label": "NEXT", "next": ""}
+    ],
+    "footnotes": [
+        "1. Khalidi, 82-83."
+    ]
+},
+
+{
+    "id": "stay_nakba_2",
+    "year": "1949",
+    "type": "fact",
+    "end": true,
+    "text": [
+        "Palestinians with Israeli citizenship were largely held under martial law until 1966."
+    ],
+    "choices": [
+        {"label": "Try another perspective.", "next": ""}
+    ],
+    "footnotes": [
+        "1. Khalidi, 82-83."
     ]
 }
 
