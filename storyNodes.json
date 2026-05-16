@@ -25,8 +25,8 @@
         {"label": "NEXT", "next": "start_israel_40s_3"}
     ],
     "footnotes": [
-        "1. \"German Jewish Refugees, 1933-1939\"",
-        "2. Gordis, 129"
+        "1. \"German Jewish Refugees, 1933-1939\"; Khalidi, 40.",
+        "2. Gordis, 129."
     ]
 },
 
@@ -56,8 +56,8 @@
         {"label": "NEXT", "next": "stay_europe"}
     ],
     "footnotes": [
-        "1. \"Escape from German-occupied Europe\", \"German Jewish Refugees\"",
-        "2. Gordis, 129"
+        "1. \"Escape from German-occupied Europe\", \"German Jewish Refugees\".",
+        "2. Gordis, 129."
     ]
 },
 
@@ -74,8 +74,8 @@
         {"label": "NEXT", "next": "leave_europe"}
     ],
     "footnotes": [
-        "1. \"Escape from German-occupied Europe\"; \"German Jewish Refugees\"",
-        "2. Gordis, 129"
+        "1. \"Escape from German-occupied Europe\"; \"German Jewish Refugees\".",
+        "2. Gordis, 129."
     ]
 },
 
@@ -103,7 +103,7 @@
         {"label": "NEXT", "next": "leave_europe_2"}
     ],
     "footnotes": [
-        "1. Gordis, 125"
+        "1. Gordis, 125."
     ]
 },
 
@@ -113,14 +113,14 @@
     "type": "story",
     "text": [
         "You've heard there is a risk of being turned away (or worse)¹,", 
-        "but you also know Jews living there are helping people immigrate illegaly.²"
+        "but you also know Jews living there are helping people immigrate illegally.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "leave_europe_3"}
     ],
     "footnotes": [
-        "1. Gordis, 127-128",
-        "2. Gordis, 129"
+        "1. Gordis, 127-128.",
+        "2. Gordis, 129."
     ]
 },
 
@@ -156,7 +156,7 @@
     "end": true,
     "text": [
         "The war continues another five years, and the Holocaust worsens throughout the course of the war.¹",
-        "By the end of World War II, 6 million Jews died in the Holocaust, a third of the global Jewish population.²",
+        "By the end of World War II, 6 million Jews have died in the Holocaust, a third of the global Jewish population.²",
         "Even after the Nazis surrender in June, acts of antisemitism persist across Europe.³"
     ],
     "choices": [
@@ -177,7 +177,7 @@
     "text": [
         "While you are able to immigrate, many individuals were not so fortunate.", 
         "Incidents such as the St. Louis, the Patria, and the Struma resulted in",
-        "Jews being turned away and ending up back in Nazi Germany, or tragic accidental deaths.¹"
+        "Jews being turned away and ending up back in Nazi Germany, or their tragic accidental deaths.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "immigrate"}
@@ -225,7 +225,7 @@
         {"label": "NEXT", "next": "un_vote_3"}
     ],
     "footnotes": [
-        "1. Winder, \"Late Mandate\""
+        "1. Winder, \"Late Mandate\"."
     ]
 },
 
@@ -258,7 +258,7 @@
         {"label": "NEXT", "next": "war48"}
     ],
     "footnotes": [
-        "1. Gordis, 151-152"
+        "1. Gordis, 151-152."
     ]
 },
 
@@ -298,15 +298,15 @@
     "type": "fact",
     "text": [
         "Around half of the Israeli military was made up of Holocaust survivors,",
-        "and Holocaust survivors made up around one-third of Israel losses in the war.¹",
+        "and Holocaust survivors made up around one-third of Israeli losses in the war.¹",
         "In total, about 1% of the Jewish Israeli population died.²"
     ],
     "choices": [
         {"label": "NEXT", "next": "fight"}
     ],
     "footnotes": [
-        "1. Yad Vashem",
-        "2. Unpacked, 7:07"
+        "1. Yad Vashem.",
+        "2. Unpacked, 7:07."
     ]
 },
 
@@ -323,8 +323,8 @@
         {"label": "NEXT", "next": "dont_fight"}
     ],
     "footnotes": [
-        "1. Yad Vashem",
-        "2. Unpacked, 7:07"
+        "1. Yad Vashem.",
+        "2. Unpacked, 7:07."
     ]
 },
 
@@ -393,7 +393,7 @@
         {"label": "NEXT", "next": "start_palestine_40s_2"}
     ],
     "footnotes": [
-        "1. Winder, \"Great Palestinian Rebellion\""
+        "1. Winder, \"Great Palestinian Rebellion\"."
     ]
 },
 
@@ -409,7 +409,7 @@
         {"label": "NEXT", "next": "pal_ww2"}
     ],
     "footnotes": [
-        "1. Winder, \"Great Palestinian Rebellion\""
+        "1. Winder, \"Great Palestinian Rebellion\"."
     ]
 },
 
@@ -419,13 +419,13 @@
     "type": "story",
     "text": [
         "Some years have passed, and you have actually experienced an economic boost as a result of the ongoing World War.¹",
-        "But you are aware of the suffering that is happening around the world."
+        "But you are acutely aware of the suffering that is happening around the world."
     ],
     "choices": [
         {"label": "NEXT", "next": "pal_ww2_2"}
     ],
     "footnotes": [
-        "1. Winder, \"Late Mandate\""
+        "1. Winder, \"Late Mandate\"."
     ]
 },
 
@@ -441,7 +441,7 @@
         {"label": "NEXT", "next": "beg_nakba"}
     ],
     "footnotes": [
-        "1. Winder, \"Late Mandate\""
+        "1. Winder, \"Late Mandate\"."
     ]
 },
 
@@ -450,16 +450,29 @@
     "year": "1947",
     "type": "story",
     "text": [
-        "The UN votes in favor of partitioning Palestine, giving your people less than half of the land.¹",
-        "Soon after, Israeli military target cities and towns to force the Palestinian residents out.²",
+        "The UN votes in favor of partitioning off Palestine to Israel, leaving your people less than half of the land.¹"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "beg_nakba_2"}
+    ],
+    "footnotes": [
+        "1. Vox, 6:27-7:27."
+    ]
+},
+
+{
+    "id": "beg_nakba_2",
+    "year": "1947",
+    "type": "story",
+    "text": [
+        "Soon after, Israeli military target cities and towns to force the Palestinian residents out.¹",
         "You're lucky that your village is spared for now."
     ],
     "choices": [
         {"label": "NEXT", "next": "nakba"}
     ],
     "footnotes": [
-        "1. Vox, 6:27-7:27",
-        "2. Charif, \"Nakba\""
+        "1. Charif, \"Nakba\"."
     ]
 },
 
@@ -475,7 +488,7 @@
         {"label": "NEXT", "next": "nakba_2"}
     ],
     "footnotes": [
-        "1. Vox, 11:47"
+        "1. Vox, 11:47."
     ]
 },
 
@@ -498,7 +511,8 @@
     "year": "1948",
     "type": "fact",
     "text": [
-        "The mass displacement of Palestinians out of their land is called the Nakba, which means the Catastrophe in Arabic.¹"
+        "The mass displacement of Palestinians out of their land is called the Nakba, which means the Catastrophe in Arabic.",
+        "By the end of the war, over three-quarters of the Palestinian population will have left and become refugees.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "leave_nakba"}
@@ -525,12 +539,30 @@
     "year": "1949",
     "type": "story",
     "text": [
-        "You have been living in a refugee camp for a little while. The country you're residing in refuses to grant you citizenship.",
-        "You miss home and wonder if you can go back now that the war is over. But you're not sure if it is worth the risk."
+        "You have been living in a refugee camp for a little while. The country you're residing in refuses to grant you citizenship.¹"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "post_war_2"}
+    ],
+    "footnotes": [
+        "1. Course Lecture, 01/30/2026"
+    ]
+},
+
+{
+    "id": "post_war_2",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "You miss home and wonder if you can go back now that the war is over. You still have your house key.¹", 
+        "But you're not sure if it is worth the risk."
     ],
     "choices": [
         {"label": "RETURN", "next": "return"},
-        {"label": "STAY", "next": ""}
+        {"label": "STAY", "next": "stay_refugee"}
+    ],
+    "footnotes": [
+        "1. Vox, 13:30."
     ]
 },
 
@@ -539,15 +571,38 @@
     "year": "1949",
     "type": "story",
     "text": [
-        "Your attempt to return home is met with shots fired at you by Israeli soldiers.¹",
+        "Your attempt to return home is met with shots fired at you by Israeli soldiers.¹"
+    ],
+    "choices": [
+        {"label": "NEXT", "next": "return_2"}
+    ],
+    "footnotes": [
+        "1. Munayyer"
+    ]
+},
+
+{
+    "id": "return_2",
+    "year": "1949",
+    "type": "story",
+    "text": [
         "You manage to escape unharmed, but the reality dawns on you:",
         "you may never be able to go home."
     ],
     "choices": [
         {"label": "NEXT", "next": "nakba_end"}
+    ]
+},
+
+{
+    "id": "stay_refugee",
+    "year": "1949",
+    "type": "story",
+    "text": [
+        "You come to terms with your situation. You will have to work with what you can. Maybe one day, you'll be allowed to return."
     ],
-    "footnotes": [
-        "1. Munayyer"
+    "choices": [
+        {"label": "NEXT", "next": "nakba_end"}
     ]
 },
 
@@ -557,14 +612,17 @@
     "type": "fact",
     "end": true,
     "text": [
-        "You have been living in a refugee camp for a while. The country you're residing in refuses to grant you citizenship.",
-        "You miss home and wonder if you can go back now that the war is over. But you're not sure if it is worth the risk."
+        "Many Palestinians expected to be able to return home after the conflict had passed, but they were refused.¹",
+        "Their homes were often destroyed to prevent any possible return.² Around 750,000 Palestinians are displaced",
+        "by the end of the war, and most of them experience intense socioeconomic struggle in their foreign host countries.³"
     ],
     "choices": [
         {"label": "Try another perspective.", "next": ""}
     ],
     "footnotes": [
-        "1. Khalidi, 58."
+        "1. Vox, 13:30.",
+        "2. Khalidi, 75.",
+        "3. Khalidi, 58, 81."
     ]
 },
 
@@ -574,7 +632,7 @@
     "type": "fact",
     "text": [
         "Only around 160,000 Palestinians manage to stay within Israeli borders.",
-        "Most who tried to stay were forcibly removed from their homes."
+        "Most who tried to stay were forcibly removed from their homes.¹"
     ],
     "choices": [
         {"label": "NEXT", "next": "stay_nakba"}
@@ -589,7 +647,7 @@
     "year": "1948",
     "type": "story",
     "text": [
-        "You decide to stay, even with the risks."
+        "You decide to stay, even with the risk of being attacked. You hope you can hold onto your family's home."
     ],
     "choices": [
         {"label": "NEXT", "next": "stay_nakba_2"}
@@ -601,10 +659,11 @@
     "year": "1949",
     "type": "story",
     "text": [
-        "You end up part of the miniority that was able to stay home. You are now officially an Israeli citizen."
+        "The war is officially over. You end up part of the miniority that was able to stay home.",
+        "You are now officially an Israeli citizen.¹"
     ],
     "choices": [
-        {"label": "NEXT", "next": ""}
+        {"label": "NEXT", "next": "stay_nakba_3"}
     ],
     "footnotes": [
         "1. Khalidi, 82-83."
@@ -612,15 +671,15 @@
 },
 
 {
-    "id": "stay_nakba_2",
+    "id": "stay_nakba_3",
     "year": "1949",
     "type": "story",
     "text": [
         "But though you are a citizen, you are placed under martial law.",
-        "And the land you desperately tried to keep is still taken from you by the Israeli military."
+        "And the land you desperately tried to keep is still taken from you by the Israeli military.¹"
     ],
     "choices": [
-        {"label": "NEXT", "next": ""}
+        {"label": "NEXT", "next": "stay_nakba_4"}
     ],
     "footnotes": [
         "1. Khalidi, 82-83."
@@ -628,27 +687,26 @@
 },
 
 {
-    "id": "stay_nakba_2",
+    "id": "stay_nakba_4",
     "year": "1949",
     "type": "story",
     "text": [
-        "You and your people have even less autonomy than they did before. And it doesn't seem like that will change anytime soon."
+        "Amidst the intense mourning, you and your people have even less autonomy than they did before.",
+        "And it doesn't seem like that will change anytime soon."
     ],
     "choices": [
-        {"label": "NEXT", "next": ""}
-    ],
-    "footnotes": [
-        "1. Khalidi, 82-83."
+        {"label": "NEXT", "next": "stay_nakba_end"}
     ]
 },
 
 {
-    "id": "stay_nakba_2",
+    "id": "stay_nakba_end",
     "year": "1949",
     "type": "fact",
     "end": true,
     "text": [
-        "Palestinians with Israeli citizenship were largely held under martial law until 1966."
+        "Though officially citizens, Palestinians in Israel were largely held under martial law until 1966.",
+        "Many still lose their property to the Israeli government, and must navigate being a marginalized minority.¹"
     ],
     "choices": [
         {"label": "Try another perspective.", "next": ""}
